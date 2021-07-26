@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T12:50:24.114Z" agent="5.0 (Windows)" version="14.9.0" etag="yl4J9MJlqLoWoYAtNCn5" type="github"><diagram id="QZ7U8toWN5kSLHNz18gQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-26T13:11:59.810Z" agent="5.0 (Windows)" etag="PV_cdBG0UsFb8bfydn1x" version="14.9.0" type="github">
+  <diagram id="QZ7U8toWN5kSLHNz18gQ" name="Page-1">
+    <mxGraphModel dx="1395" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-1" value="&lt;h1&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;font color=&quot;#007FFF&quot;&gt;MVVM &lt;/font&gt;Architecture&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275.5" y="20" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-3" value="MVVM way to structure code" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;&#xa;borderRadius:10;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Lucida Console;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="178" y="120" width="495" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-4" value="UI components are kept away from business logic" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="Y-a5dnPzHRK2GmVt-JUI-3">
+          <mxGeometry y="50" width="495" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-5" value="Business logic is kept away from the database oprations" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="Y-a5dnPzHRK2GmVt-JUI-3">
+          <mxGeometry y="76" width="495" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-6" value="Easy to understand and read" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="Y-a5dnPzHRK2GmVt-JUI-3">
+          <mxGeometry y="102" width="495" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-9" value="A lot less to worry when its comes to managing life cycle events" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=15;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacingBottom=0;fontFamily=Lucida Console;" vertex="1" parent="Y-a5dnPzHRK2GmVt-JUI-3">
+          <mxGeometry y="128" width="495" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=15;startSize=50;" edge="1" parent="1" source="Y-a5dnPzHRK2GmVt-JUI-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=15;startSize=50;" edge="1" parent="1" source="Y-a5dnPzHRK2GmVt-JUI-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=15;startSize=50;" edge="1" parent="1" source="Y-a5dnPzHRK2GmVt-JUI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-a5dnPzHRK2GmVt-JUI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Lucida Console;fontSize=15;startSize=50;" edge="1" parent="1" source="Y-a5dnPzHRK2GmVt-JUI-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
