@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T23:56:36.629Z" agent="5.0 (Windows)" etag="e5Pr7fAbZUWY0DxJ0C9-" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-27T00:03:02.796Z" agent="5.0 (Windows)" etag="nVDsbJqtcaurlmcz93vL" version="14.9.2" type="github">
   <diagram id="QZ7U8toWN5kSLHNz18gQ" name="Page-1">
-    <mxGraphModel dx="1838" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="643" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,6 +112,9 @@
         <mxCell id="NOsNoiqSnCsfZkaYTi22-33" value="&lt;font style=&quot;font-size: 15px&quot;&gt;liveData&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=18;strokeColor=#000000;" vertex="1" parent="NOsNoiqSnCsfZkaYTi22-34">
           <mxGeometry x="13.5" y="13.5" width="81" height="40.5" as="geometry" />
         </mxCell>
+        <mxCell id="NOsNoiqSnCsfZkaYTi22-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;" edge="1" parent="1" source="NOsNoiqSnCsfZkaYTi22-38" target="NOsNoiqSnCsfZkaYTi22-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NOsNoiqSnCsfZkaYTi22-38" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=18;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="270" y="1980" width="250" height="50" as="geometry" />
         </mxCell>
@@ -149,6 +152,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NOsNoiqSnCsfZkaYTi22-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;" edge="1" parent="1" source="NOsNoiqSnCsfZkaYTi22-38" target="NOsNoiqSnCsfZkaYTi22-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NOsNoiqSnCsfZkaYTi22-64" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="458" y="2080" width="252" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NOsNoiqSnCsfZkaYTi22-53" value="Remote Data Source" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=18;strokeColor=#000000;spacing=0;spacingBottom=90;" vertex="1" parent="NOsNoiqSnCsfZkaYTi22-64">
+          <mxGeometry width="252" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NOsNoiqSnCsfZkaYTi22-54" value="&lt;div&gt;Web&lt;/div&gt;&lt;div&gt;Service&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=18;strokeColor=#000000;align=center;" vertex="1" parent="NOsNoiqSnCsfZkaYTi22-64">
+          <mxGeometry y="50" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NOsNoiqSnCsfZkaYTi22-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontSize=18;" edge="1" parent="NOsNoiqSnCsfZkaYTi22-64" source="NOsNoiqSnCsfZkaYTi22-55" target="NOsNoiqSnCsfZkaYTi22-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NOsNoiqSnCsfZkaYTi22-55" value="API" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Lucida Console;fontSize=18;strokeColor=#000000;" vertex="1" parent="NOsNoiqSnCsfZkaYTi22-64">
+          <mxGeometry x="160" y="90" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NOsNoiqSnCsfZkaYTi22-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=18;" edge="1" parent="NOsNoiqSnCsfZkaYTi22-64" source="NOsNoiqSnCsfZkaYTi22-54" target="NOsNoiqSnCsfZkaYTi22-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
